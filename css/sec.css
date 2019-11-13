@@ -1,0 +1,38 @@
+ h1 {
+            color: white;
+        }
+        
+      
+        
+        #description {
+            color:black;
+        }
+
+
+.featured{
+  background-color:#069412;
+  font-family:times new roman;
+  fon-size:30px;
+  border:5px dashed ;
+  border-color:white;
+  padding:20px 10px 10px 40px;
+  color: white !important;
+  text-align:center
+    
+}
+.header {
+  text-align:center;
+  text-decoration:underline;
+  font-size:50px;
+  color:grey;
+  
+}
+
+.end{
+  text-decoration:bold;
+}
+
+h2{
+  color:white;
+  background-color:#069412;
+}
