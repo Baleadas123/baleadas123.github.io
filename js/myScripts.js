@@ -9,6 +9,7 @@ for(k=0; k<1; k++){
   var ans= Math.sqrt(256);
   document.write(ans + "<br/>");
 }
+
 function myLoop(){
 var start= document.getElementById("start").value;
 var end = document.getElementById("end").value;
@@ -21,6 +22,10 @@ var end = document.getElementById("end").value;
   start=Number(start);
   end=Number(end);
   jump=Number(jump);
+  
+   console.log(typeof start);
+  console.log(typeof end);
+  console.log(typeof jump);
   
 for(var i = start; i <= end; i+=jump)
 {document.write('<p>' + i + '</p>');
